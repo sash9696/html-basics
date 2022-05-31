@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+background-color: gray;
+    height: 100vh;
+}
+.header{
+ position: fixed;
+ height: 80px;
+ top: 0;
+ left: 0;
+ width: 100%;
+}
+.header .logo{
+    width: 40px;
+    height: auto;
+    padding: 20px 100px;
+}
+
+.header ul{
+    margin-top: 30px;
+    float: right;
+    margin-right: 30px;
+}
+.header ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+}
+.header ul li a{
+    font-size: 20px;
+    color: black;
+    padding: 6px 15px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.header ul li a.active , .header ul li a:hover{
+    background-color: red;
+    border-radius: 2px;
+}
+
+.center{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+.btn{
+    padding: 15px 25px;
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+}
